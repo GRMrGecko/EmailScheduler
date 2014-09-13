@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2A452C8119C476C30095EEF6 /* Build Directory */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2A452C8219C476C30095EEF6 /* Build configuration list for PBXAggregateTarget "Build Directory" */;
+			buildPhases = (
+				2A452C8519C476C60095EEF6 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Build Directory";
+			productName = "Build Directory";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2A452C7019C475790095EEF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A452C6F19C475790095EEF6 /* Foundation.framework */; };
+		2A452C7319C475790095EEF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452C7219C475790095EEF6 /* main.m */; };
+		2A452C7719C475790095EEF6 /* EmailScheduler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A452C7619C475790095EEF6 /* EmailScheduler.1 */; };
+		2A452C7E19C476900095EEF6 /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A452C7D19C476900095EEF6 /* MailCore.framework */; };
+		2A452C8019C476A40095EEF6 /* MailCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A452C7D19C476900095EEF6 /* MailCore.framework */; };
+		2A452C8A19C4776A0095EEF6 /* MGMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452C8919C4776A0095EEF6 /* MGMController.m */; };
+		2A452C9719C479030095EEF6 /* MGMHTTPAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452C8D19C479030095EEF6 /* MGMHTTPAddons.m */; };
+		2A452C9819C479030095EEF6 /* MGMHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452C8F19C479030095EEF6 /* MGMHTTPClient.m */; };
+		2A452C9A19C479030095EEF6 /* MGMHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452C9419C479030095EEF6 /* MGMHTTPResponse.m */; };
+		2A452C9B19C479030095EEF6 /* MGMHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452C9619C479030095EEF6 /* MGMHTTPServer.m */; };
+		2A452C9E19C47A160095EEF6 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452C9D19C47A160095EEF6 /* AsyncSocket.m */; };
+		2A452CA119C47B7D0095EEF6 /* MGMHTTPClientClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452CA019C47B7D0095EEF6 /* MGMHTTPClientClass.m */; };
+		2A452CA519C481C70095EEF6 /* MGMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452CA419C481C70095EEF6 /* MGMJSON.m */; };
+		2A452CA819C4850A0095EEF6 /* MGMEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A452CA719C4850A0095EEF6 /* MGMEmail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A452C8619C476D70095EEF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A452C6419C475790095EEF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A452C8119C476C30095EEF6;
+			remoteInfo = "Build Directory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A452C6A19C475790095EEF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				2A452C7719C475790095EEF6 /* EmailScheduler.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2A452C7F19C4769D0095EEF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A452C8019C476A40095EEF6 /* MailCore.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A452C6C19C475790095EEF6 /* EmailScheduler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EmailScheduler; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A452C6F19C475790095EEF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A452C7219C475790095EEF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A452C7519C475790095EEF6 /* EmailScheduler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmailScheduler-Prefix.pch"; sourceTree = "<group>"; };
+		2A452C7619C475790095EEF6 /* EmailScheduler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EmailScheduler.1; sourceTree = "<group>"; };
+		2A452C7D19C476900095EEF6 /* MailCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MailCore.framework; sourceTree = "<group>"; };
+		2A452C8819C4776A0095EEF6 /* MGMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMController.h; sourceTree = "<group>"; };
+		2A452C8919C4776A0095EEF6 /* MGMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMController.m; sourceTree = "<group>"; };
+		2A452C8C19C479030095EEF6 /* MGMHTTPAddons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMHTTPAddons.h; sourceTree = "<group>"; };
+		2A452C8D19C479030095EEF6 /* MGMHTTPAddons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMHTTPAddons.m; sourceTree = "<group>"; };
+		2A452C8E19C479030095EEF6 /* MGMHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMHTTPClient.h; sourceTree = "<group>"; };
+		2A452C8F19C479030095EEF6 /* MGMHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMHTTPClient.m; sourceTree = "<group>"; };
+		2A452C9219C479030095EEF6 /* MGMHTTPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMHTTPDefines.h; sourceTree = "<group>"; };
+		2A452C9319C479030095EEF6 /* MGMHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMHTTPResponse.h; sourceTree = "<group>"; };
+		2A452C9419C479030095EEF6 /* MGMHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMHTTPResponse.m; sourceTree = "<group>"; };
+		2A452C9519C479030095EEF6 /* MGMHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMHTTPServer.h; sourceTree = "<group>"; };
+		2A452C9619C479030095EEF6 /* MGMHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMHTTPServer.m; sourceTree = "<group>"; };
+		2A452C9C19C47A160095EEF6 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		2A452C9D19C47A160095EEF6 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		2A452C9F19C47B7D0095EEF6 /* MGMHTTPClientClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMHTTPClientClass.h; sourceTree = "<group>"; };
+		2A452CA019C47B7D0095EEF6 /* MGMHTTPClientClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMHTTPClientClass.m; sourceTree = "<group>"; };
+		2A452CA319C481C70095EEF6 /* MGMJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMJSON.h; sourceTree = "<group>"; };
+		2A452CA419C481C70095EEF6 /* MGMJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMJSON.m; sourceTree = "<group>"; };
+		2A452CA619C4850A0095EEF6 /* MGMEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMEmail.h; sourceTree = "<group>"; };
+		2A452CA719C4850A0095EEF6 /* MGMEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMEmail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A452C6919C475790095EEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A452C7E19C476900095EEF6 /* MailCore.framework in Frameworks */,
+				2A452C7019C475790095EEF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A452C6319C475790095EEF6 = {
+			isa = PBXGroup;
+			children = (
+				2A452C7D19C476900095EEF6 /* MailCore.framework */,
+				2A452C7119C475790095EEF6 /* EmailScheduler */,
+				2A452C6E19C475790095EEF6 /* Frameworks */,
+				2A452C6D19C475790095EEF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A452C6D19C475790095EEF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A452C6C19C475790095EEF6 /* EmailScheduler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A452C6E19C475790095EEF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A452C6F19C475790095EEF6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A452C7119C475790095EEF6 /* EmailScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				2A452C7219C475790095EEF6 /* main.m */,
+				2A452C7619C475790095EEF6 /* EmailScheduler.1 */,
+				2A452C7419C475790095EEF6 /* Supporting Files */,
+				2A452CA219C481C70095EEF6 /* JSON */,
+				2A452C8B19C479030095EEF6 /* MGMHTTP */,
+				2A452C8819C4776A0095EEF6 /* MGMController.h */,
+				2A452C8919C4776A0095EEF6 /* MGMController.m */,
+				2A452C9F19C47B7D0095EEF6 /* MGMHTTPClientClass.h */,
+				2A452CA019C47B7D0095EEF6 /* MGMHTTPClientClass.m */,
+				2A452CA619C4850A0095EEF6 /* MGMEmail.h */,
+				2A452CA719C4850A0095EEF6 /* MGMEmail.m */,
+			);
+			path = EmailScheduler;
+			sourceTree = "<group>";
+		};
+		2A452C7419C475790095EEF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A452C7519C475790095EEF6 /* EmailScheduler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A452C8B19C479030095EEF6 /* MGMHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				2A452C9C19C47A160095EEF6 /* AsyncSocket.h */,
+				2A452C9D19C47A160095EEF6 /* AsyncSocket.m */,
+				2A452C8C19C479030095EEF6 /* MGMHTTPAddons.h */,
+				2A452C8D19C479030095EEF6 /* MGMHTTPAddons.m */,
+				2A452C8E19C479030095EEF6 /* MGMHTTPClient.h */,
+				2A452C8F19C479030095EEF6 /* MGMHTTPClient.m */,
+				2A452C9219C479030095EEF6 /* MGMHTTPDefines.h */,
+				2A452C9319C479030095EEF6 /* MGMHTTPResponse.h */,
+				2A452C9419C479030095EEF6 /* MGMHTTPResponse.m */,
+				2A452C9519C479030095EEF6 /* MGMHTTPServer.h */,
+				2A452C9619C479030095EEF6 /* MGMHTTPServer.m */,
+			);
+			path = MGMHTTP;
+			sourceTree = "<group>";
+		};
+		2A452CA219C481C70095EEF6 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2A452CA319C481C70095EEF6 /* MGMJSON.h */,
+				2A452CA419C481C70095EEF6 /* MGMJSON.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A452C6B19C475790095EEF6 /* EmailScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A452C7A19C475790095EEF6 /* Build configuration list for PBXNativeTarget "EmailScheduler" */;
+			buildPhases = (
+				2A452C6819C475790095EEF6 /* Sources */,
+				2A452C6919C475790095EEF6 /* Frameworks */,
+				2A452C6A19C475790095EEF6 /* CopyFiles */,
+				2A452C7F19C4769D0095EEF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A452C8719C476D70095EEF6 /* PBXTargetDependency */,
+			);
+			name = EmailScheduler;
+			productName = EmailScheduler;
+			productReference = 2A452C6C19C475790095EEF6 /* EmailScheduler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A452C6419C475790095EEF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mr. Gecko's Media";
+			};
+			buildConfigurationList = 2A452C6719C475790095EEF6 /* Build configuration list for PBXProject "EmailScheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A452C6319C475790095EEF6;
+			productRefGroup = 2A452C6D19C475790095EEF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A452C6B19C475790095EEF6 /* EmailScheduler */,
+				2A452C8119C476C30095EEF6 /* Build Directory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A452C8519C476C60095EEF6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n#\n# Build Directory\n#\n# Created by Mr. Gecko <GRMrGecko@gmail.com> on 4/21/11.\n# No Copyright Claimed. Public Domain.\n#\n# DISCLAIMER: This script is provided as-is. I am not responsible if this script somehow causes harm to you or your system in any way, I am providing this for free in hope that it will of use to someone. I WILL NOT pay you any amount of money if anything happen to your data or you because of the changes this script makes nor am I obligated to help you fix issues this causes.\n#\n\nif [ \"$SRCROOT/build\" != \"$SYMROOT\" ]; then\n    if [ -d \"$SRCROOT/build\" ]; then\n        /bin/rm -Rf \"$SRCROOT/build\"\n    fi\n    /bin/ln -fs \"$SYMROOT\" \"$SRCROOT/build\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A452C6819C475790095EEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A452C9A19C479030095EEF6 /* MGMHTTPResponse.m in Sources */,
+				2A452C7319C475790095EEF6 /* main.m in Sources */,
+				2A452CA819C4850A0095EEF6 /* MGMEmail.m in Sources */,
+				2A452C9B19C479030095EEF6 /* MGMHTTPServer.m in Sources */,
+				2A452C8A19C4776A0095EEF6 /* MGMController.m in Sources */,
+				2A452C9819C479030095EEF6 /* MGMHTTPClient.m in Sources */,
+				2A452CA519C481C70095EEF6 /* MGMJSON.m in Sources */,
+				2A452CA119C47B7D0095EEF6 /* MGMHTTPClientClass.m in Sources */,
+				2A452C9719C479030095EEF6 /* MGMHTTPAddons.m in Sources */,
+				2A452C9E19C47A160095EEF6 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A452C8719C476D70095EEF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A452C8119C476C30095EEF6 /* Build Directory */;
+			targetProxy = 2A452C8619C476D70095EEF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A452C7819C475790095EEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A452C7919C475790095EEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A452C7B19C475790095EEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailScheduler/EmailScheduler-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A452C7C19C475790095EEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailScheduler/EmailScheduler-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A452C8319C476C30095EEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A452C8419C476C30095EEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A452C6719C475790095EEF6 /* Build configuration list for PBXProject "EmailScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A452C7819C475790095EEF6 /* Debug */,
+				2A452C7919C475790095EEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A452C7A19C475790095EEF6 /* Build configuration list for PBXNativeTarget "EmailScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A452C7B19C475790095EEF6 /* Debug */,
+				2A452C7C19C475790095EEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A452C8219C476C30095EEF6 /* Build configuration list for PBXAggregateTarget "Build Directory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A452C8319C476C30095EEF6 /* Debug */,
+				2A452C8419C476C30095EEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A452C6419C475790095EEF6 /* Project object */;
+}
